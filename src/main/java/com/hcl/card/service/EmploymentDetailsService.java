@@ -1,5 +1,10 @@
 package com.hcl.card.service;
 
+import com.hcl.card.entity.EmploymentDetails;
+import com.hcl.card.repository.EmploymentDetailsRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import java.util.List;
 
 @Service
 public class EmploymentDetailsService {
